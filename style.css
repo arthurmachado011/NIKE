@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Mantenha ou ajuste os estilos gerais para a classe .container aqui */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-imagem-pequena {
+    width: 15%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+section {
+    margin: 2em 0;
+    padding: 20px;
+}
+
+.background-light {
+    background-color: #ffffff;
+}
+
+.background-medium {
+    background-color: #ffffff;
+}
+
+.background-dark {
+    background-color: #ffffff;
+}
+
+#banner img,
+.carousel img,
+.gallery img,
+#chuteiras img,
+#lançamentos img,
+#futebol img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contato form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu ul,
+.footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-social p {
+    margin: 0;
+}
+/* Adicionado para alinhar o logo à direita */
+.logo-direita {
+    margin-left: auto;
+}
+
+/* Ajustes para a largura do banner */
+#banner img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Ajustes para a largura das imagens da galeria de chuteiras */
+.gallery img {
+    width: 40%;
+    margin: 0 5px;
+}
+
+
